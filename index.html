@@ -19,13 +19,16 @@
         <header>
             <div class="header-bar">
                 <div class="fountain-bar">
-                    <img class="userbar" src="./img/bar.svg" alt="">
+                    <div id="toggle" class="bar">
+                        <img id="open-menu" class="userbar" src="./img/bar.svg" alt="">
+                        <i id="close-menu" style="display: none;" class="fa-solid fa-xmark"></i>
+                    </div>
                     <img class="fountain" src="./img/fountain.svg" alt="fountain"> 
                 </div>
                 <img class="userbar" src="./img/carbon_user-avatar.svg" alt="">
             </div>
             
-            <nav class="open-sans">
+            <nav id="mobile-nav" class="open-sans">
                 <ul>
                     <li> <a href="#">Home</a> </li>
                     <li> <a href="#">Courses</a> </li>
@@ -116,5 +119,6 @@
         </div>
     </div>
 
+    <script src="./index.js"></script>
 </body>
 </html>
